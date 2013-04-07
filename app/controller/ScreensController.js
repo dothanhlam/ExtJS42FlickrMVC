@@ -7,8 +7,6 @@
  */
 Ext.define('FlickrSearch.controller.ScreensController', {
     extend: 'Ext.app.Controller',
-    stores: ['ApplicationStore'],
-    models: ['ApplicationModel'],
     views:['AuthenticationView', 'PhotoSearchView', 'PhotoView'],
     refs: [
         { ref: 'authentication',  selector: 'authentication'},
