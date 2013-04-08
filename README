@@ -1,14 +1,17 @@
 A lot of sample application that using Flickr API and ExtJS ... I've read many ones, most of them are too simple,
-or just obsolate implementing with previous ExtJS. I am using latest ExtJS 4.2, it was a big update and quite different.
+or just obsolete implementing with previous ExtJS. I am using latest ExtJS 4.2, it was a big update and quite different.
 
 The purpose of application to illustrate these feature:
 1. Building application with MVC Pattern
 2. Illustrating multple screens (I used to be familiar with Flex before and always looking for this)
-3. Inovoking Flickr API and mapping to model / store. The sample from Sencha blog did not help me much so I was trying
+3. Invoking Flickr API and mapping to model / store. The sample from Sencha blog did not help me much so I was trying
 implement from scratch
 4. Xtemplate
 5. How to get references of different views from controller
-6. Could not remember all, but hope you can leave me some feedback
+6. Unit testing (update by 08, April, 2013)
+Jasmine is available for unit testing with Ext JS. Almost case study or example talks about testing with logic, store
+or controller but not view. I am trying to integrate the UI unit testing but keep the opinion is unit testing not
+suitable for UI.
 
 I also public my Flickr API key, feel free to use it but you should create and use your own. The application keeps
 going on update ...
