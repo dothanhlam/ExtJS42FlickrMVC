@@ -15,13 +15,9 @@ Ext.onReady(function() {
         name: 'FlickrSearch',
         appFolder: 'app',
         controllers: ['ScreensController'],
-
         launch: function() {
-            //include the tests in the test.html head
-            //jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
             var htmlReporter = new jasmine.HtmlReporter();
             jasmine.getEnv().addReporter(htmlReporter);
-
             jasmine.getEnv().execute();
         }
     });
