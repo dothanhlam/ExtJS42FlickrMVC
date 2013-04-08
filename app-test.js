@@ -18,7 +18,10 @@ Ext.onReady(function() {
 
         launch: function() {
             //include the tests in the test.html head
-            jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+            //jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+            var htmlReporter = new jasmine.HtmlReporter();
+            jasmine.getEnv().addReporter(htmlReporter);
+
             jasmine.getEnv().execute();
         }
     });
